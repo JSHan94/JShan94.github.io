@@ -23,7 +23,7 @@ github_username:  jshan94
 about_profile_image: images/profile.jpg
 about_content: | # this will include new lines to allow paragraphs
   I am a M.S. student advised by James Wonki Hong at the Department of Computer Science and Engineering, Pohang University of Science and Technology, Korea.
-  My reasearch interests lie in <mark>Machine Learning</mark> and <mark>Blockchain</mark>.
+  My reasearch interests lie in <mark>Machine Learning</mark> and <mark>Blockchain</mark>.</br>
   I'm also backend developer with business mind. 🚀 
 
 content:
