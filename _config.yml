@@ -37,7 +37,8 @@ content:
         sub_title: Software Developer
         caption: 2019.7 - 2020.1 (7 month)
         quote: >
-          Actionable on-chain data, charts, alerts for investors in $BTC, $ETH, #Stablecoins
+          Actionable on-chain data, charts, alerts for investors in $BTC, $ETH, #Stablecoins.
+          Pre-A Quant service startup
         description: | # this will include new lines to allow paragraphs
             * Analysis & Manufacture ETH & ERC-20 Stable coins on-chain data (about > 4TB)
             * Migrate DB server (MySQL to PostgreSQL)
@@ -56,6 +57,7 @@ content:
         description: | # this will include new lines to allow paragraphs
           * Distributed Processing & Network Management (DPNM) Lab
           * Mainly studied about blockchain technology
+          * POSTECH alchemist fellowship ($ 9,000)
           * *GPA 3.92/4.3* 
               
     layout: list # Type of content section (list/text)
