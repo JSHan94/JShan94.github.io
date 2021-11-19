@@ -56,7 +56,7 @@ content:
         description: | # this will include new lines to allow paragraphs
           * Distributed Processing & Network Management (DPNM) Lab
           * Mainly studied about blockchain technology
-          * GPA *3.92/4.3* 
+          * *GPA 3.92/4.3* 
               
     layout: list # Type of content section (list/text)
     content:
@@ -68,9 +68,10 @@ content:
           I didn't adjust well when I was a freshman, but after I was discharged from the military, I tried to have a variety of experiences.<br/>
           I have regrets for neglecting my studies, but that's why I want to work harder now.
         description: | # this will include new lines to allow paragraphs
-          * 2 Academic Probation in freshman due to my low grade (So i was enlisted in the army.. 2014 ~ 2016)
-          * Internship in many companies every vacation ([SK C&C](https://www.skcc.co.kr/), [Netmarble](https://www.netmarble.net/), [EXEM](https://ex-em.com/), [Fitogether](https://www.fitogether.com/)) 
-          * GPA *2.82/4.3* 
+          * 2013 ~ : Got academic probation 2 times in freshman due to my low grade
+          * 2014 ~ : Enlisted in the army 
+          * 2016 ~ : Studied hard (got scholarship in 2018) and Did internship in many companies every vacation ([SK C&C](https://www.skcc.co.kr/),  [Netmarble](https://www.netmarble.net/),  [EXEM](https://ex-em.com/),  [Fitogether](https://www.fitogether.com/)) 
+          * *GPA 2.82/4.3* 
     
     
 
