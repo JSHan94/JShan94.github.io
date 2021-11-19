@@ -11,3 +11,7 @@ bundle install
 bundle exec jekyll serve
 # Open in localhost:4000
 ```
+
+# Convert to PDF
+
+Use [this site](https://www.web2pdfconvert.com/)
