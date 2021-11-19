@@ -22,12 +22,11 @@ github_username:  jshan94
 # about_title: About Me
 about_profile_image: images/profile.jpg
 about_content: | # this will include new lines to allow paragraphs
-  I am a M.S. student advised by James Wonki Hong at the Department of Computer Science and Engineering, Pohang University of Science and Technology, Korea.
-  My reasearch interests lie in <mark>Machine Learning</mark> and <mark>Blockchain</mark>.<br/>
+  I am a M.S. student advised by James Wonki Hong at the Dept. of CSE, POSTCH, Korea. <br/>
+  My reasearch interests lie in <mark>Machine Learning</mark> and <mark>Blockchain</mark>. <br/>
   I'm also backend developer with business mind. 🚀 
 
 content:
-
   - title: Experience # Title for the section
     layout: list # Type of content section (list/text)
     content:
@@ -45,27 +44,31 @@ content:
             * Develop data query API for Quant service
             * Learn overall Blockchain industry & technology
 
-
-  - title: Education # Title for the section
+  - title: Projects
+    layout: text
+    content: | # this will include new lines to allow paragraphs
+      TBD
   
+  
+  - title: Education # Title for the section
     layout: list # Type of content section (list/text)
     content:
       - layout: left
         title: POSTECH
         caption: 2013.3 - 2019.8
-        sub_title: MS Computer Science
+        sub_title: MS Computer Science Engineering
         description: | # this will include new lines to allow paragraphs
           * Distributed Processing & Network Management (DPNM) Lab
           * Mainly studied about blockchain technology
-          * POSTECH alchemist fellowship ($ 9,000)
+          * Recipient of the POSTECH Alchemist Fellowship 2021 ($ 9,000)
           * *GPA 3.92/4.3* 
-              
+          
     layout: list # Type of content section (list/text)
     content:
       - layout: left
         title: POSTECH
         caption: 2013.3 - 2019.8
-        sub_title: BS Computer Science
+        sub_title: BS Computer Science Engineering
         quote: >
           I didn't adjust well when I was a freshman, but after I was discharged from the military, I tried to have a variety of experiences.<br/>
           I have regrets for neglecting my studies, but that's why I want to work harder now.
@@ -76,23 +79,6 @@ content:
           * *GPA 2.82/4.3* 
     
     
-
-
-#   - title: A Little More About Me
-#     layout: text
-#     content: | # this will include new lines to allow paragraphs
-#       Alongside my interests in networks and software engineering some of my other interests and hobbies are:
-#       - Rock climbing
-#       - Gaming
-#       - Knitting
-#       - [Becoming a ninja](https://www.youtube.com/watch?v=vtg4o__aRMg)
-
-#       Look at this cool image  
-#       ![Trees](/modern-resume-theme/images/landscape-trees.jpg "Trees")
-
-##infos 
-# Recipient of the POSTECH Alchemist Fellowship 2021.
-
 # Footer
 footer_show_references: true
 # references_title: References on request (Override references text)
