@@ -33,7 +33,7 @@ content:
       - layout: left # or top-middle
         title: CryptoQuant
         link: https://cryptoquant.com/overview/btc-exchange-flows
-        sub_title: Software Developer
+        sub_title: Backend Developer
         caption: 2019.7 - 2020.1 (7 month)
         quote: >
           Actionable on-chain data, charts, alerts for investors in $BTC, $ETH, #Stablecoins.
@@ -47,7 +47,25 @@ content:
   - title: Projects
     layout: text
     content: | # this will include new lines to allow paragraphs
-      TBD
+      - layout: top-middle
+        name: CBDC system using Blockchain
+        link: 
+        quote: >
+          2021.1 ~ 2021.11
+        description: | # this will include new lines to allow paragraphs
+          * CBDC (Central Bank Digital Currency) system using Blockchain
+          * Collaboration with Hana Bank, [Demo](https://www.youtube.com/watch?v=DqvWH7rcHTU&ab_channel=POSTECHCCBR) 
+          * Related Papers : [Cos-CBDC: Design and Implementation of CBDC on Cosmos Blockchain](https://ieeexplore.ieee.org/abstract/document/9562672)
+          
+      - layout: top-middle
+        name: MyMu
+        link: 
+        quote: >
+          2021.1 ~ 2021.3
+        description: | # this will include new lines to allow paragraphs
+          * Music Opensource Community Service [Pitching](https://youtu.be/yk07lsq_O7o)
+          * **Excellent Award** in [2020 I-CORP](https://www.kitscenter.or.kr/home/main.do), **Encouragement Award** in [FESTA](https://m.yeongnam.com/view.php?key=20210130010003979)
+
   
   
   - title: Education # Title for the section
@@ -74,7 +92,30 @@ content:
           * 2013 ~ : Got academic probation 2 times in freshman due to my low grade
           * 2014 ~ : Enlisted in the army 
           * 2016 ~ : Studied hard (got scholarship in 2018) and Internship ([SK C&C](https://www.skcc.co.kr/),  [Netmarble](https://www.netmarble.net/),  [EXEM](https://ex-em.com/),  [Fitogether](https://www.fitogether.com/)) 
-          * *GPA 2.82/4.3* 
+          * *GPA 2.82/4.3*
+          
+    - title: Education # Title for the section
+      - layout: left
+        name: Backend
+        description: | # this will include new lines to allow paragraphs
+          * Language : NodeJS, Python
+          * Framework : Linux, AWS, Firebase
+      - layout: left
+        name: Frontend
+        description: | # this will include new lines to allow paragraphs
+          * Language : Javascript (React)
+      - layout: left
+        name: Blockchain
+        description: | # this will include new lines to allow paragraphs
+          * Language : Solidity, Go
+          * Framework : Remix, Blockchain Platforms(usually Ethereum, Cosmos)
+          
+#       - layout: left
+#         name: Alogrithm or ML
+#         description: | # this will include new lines to allow paragraphs
+#           * ES6
+#           * Npm, Grunt, Webpack
+#           * Handlebars, Lodash
     
     
 # Footer
