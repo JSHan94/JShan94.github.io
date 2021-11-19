@@ -62,9 +62,7 @@ content:
           * Mainly studied about blockchain technology
           * Recipient of the POSTECH Alchemist Fellowship 2021 ($ 9,000)
           * *GPA 3.92/4.3* 
-          
-    layout: list # Type of content section (list/text)
-    content:
+
       - layout: left
         title: POSTECH
         caption: 2013.3 - 2019.8
