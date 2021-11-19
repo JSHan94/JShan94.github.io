@@ -38,37 +38,30 @@ content:
         sub_title: Backend Developer
         caption: 2019.7 - 2020.1 (7 month)
         quote: >
+          Pre-A Quant service startup for Blockchain investing. <br/>
           Actionable on-chain data, charts, alerts for investors in $BTC, $ETH, #Stablecoins.
-          Pre-A Quant service startup
+          
         description: | # this will include new lines to allow paragraphs
-            * Analysis & Manufacture ETH & ERC-20 Stable coins on-chain data (about > 4TB)
-            * Migrate DB server (MySQL to PostgreSQL)
-            * Develop data query API for Quant service
-            * Learn overall Blockchain industry & technology
-
+          * Analysis & Manufacture ETH & ERC-20 Stable coins on-chain data (about > 4TB)
+          * Migrate DB server (MySQL to PostgreSQL)
+          * Develop data query API for Quant service
+          * Learn overall Blockchain industry & technology
   - title: Projects
-    layout: text
-    content: | # this will include new lines to allow paragraphs
-      - layout: top-middle
-        name: CBDC system using Blockchain
-        link: 
-        quote: >
-          2021.1 ~ 2021.11
+    layout: list
+    content:  # this will include new lines to allow paragraphs
+      - layout: left
+        title: Blockchain-based CBDC 
+        caption: 2021.1 ~ 2021.11
         description: | # this will include new lines to allow paragraphs
           * CBDC (Central Bank Digital Currency) system using Blockchain
-          * Collaboration with Hana Bank, [Demo](https://www.youtube.com/watch?v=DqvWH7rcHTU&ab_channel=POSTECHCCBR) 
+          * Collaboration with Hana Bank ([Demo](https://www.youtube.com/watch?v=DqvWH7rcHTU&ab_channel=POSTECHCCBR)) 
           * Related Papers : [Cos-CBDC: Design and Implementation of CBDC on Cosmos Blockchain](https://ieeexplore.ieee.org/abstract/document/9562672)
-          
-      - layout: top-middle
-        name: MyMu
-        link: 
-        quote: >
-          2021.1 ~ 2021.3
+      - layout: left
+        title: MyMu
+        caption: 2021.1 ~ 2021.3
         description: | # this will include new lines to allow paragraphs
           * Music Opensource Community Service [Pitching](https://youtu.be/yk07lsq_O7o)
-          * **Excellent Award** in [2020 I-CORP](https://www.kitscenter.or.kr/home/main.do), **Encouragement Award** in [FESTA](https://m.yeongnam.com/view.php?key=20210130010003979)
-
-  
+          * **Excellent Award** in [2020 I-CORP](https://www.kitscenter.or.kr/home/main.do),   **Encouragement Award** in [FESTA](https://m.yeongnam.com/view.php?key=20210130010003979)
   - title: Education # Title for the section
     layout: list # Type of content section (list/text)
     content:
@@ -80,11 +73,10 @@ content:
           While working at CryptoQuant, I thought the blockchain industry was interesting, so I applied to graduate school to study more.
           Therefore, it is possible to understand the latest blockchain industry status and technical background such as NFT and Crypto urrency.
         description: | # this will include new lines to allow paragraphs
-          * Distributed Processing & Network Management (DPNM) Lab
+          * Distributed Processing & Network Management ([DPNM](http://dpnm.postech.ac.kr/)) Lab
           * Mainly studied about blockchain technology
           * Recipient of the POSTECH Alchemist Fellowship 2021 ($ 9,000)
           * *GPA 3.92/4.3* 
-
       - layout: left
         title: POSTECH
         caption: 2013.3 - 2019.8
@@ -96,31 +88,26 @@ content:
           * 2013 ~ : Got academic probation 2 times in freshman due to my low grade
           * 2014 ~ : Enlisted in the army 
           * 2016 ~ : Studied hard (got scholarship in 2018) and Internship ([SK C&C](https://www.skcc.co.kr/),  [Netmarble](https://www.netmarble.net/),  [EXEM](https://ex-em.com/),  [Fitogether](https://www.fitogether.com/)) 
-          * *GPA 2.82/4.3*
-          
-    - title: Skills # Title for the section
+          * *GPA 2.82/4.3*  
+  - title: Skills # Title for the section
+    layout: list # Type of content section (list/text)
+    content:
       - layout: left
-        name: Backend
+        title: Backend
         description: | # this will include new lines to allow paragraphs
           * Language : NodeJS, Python
           * Framework : Linux, AWS, Firebase
       - layout: left
-        name: Frontend
+        title: Frontend
         description: | # this will include new lines to allow paragraphs
           * Language : Javascript (React)
       - layout: left
-        name: Blockchain
+        title: Blockchain
         description: | # this will include new lines to allow paragraphs
           * Language : Solidity, Go
           * Framework : Remix, Blockchain Platforms(usually Ethereum, Cosmos)
-          
-#       - layout: left
-#         name: Alogrithm or ML
-#         description: | # this will include new lines to allow paragraphs
-#           * ES6
-#           * Npm, Grunt, Webpack
-#           * Handlebars, Lodash
-    
+      
+      
     
 # Footer
 footer_show_references: true
@@ -135,3 +122,16 @@ sass:
 
 plugins:
  - jekyll-seo-tag
+
+exclude : [
+  "Gemfile",
+  "Gemfile.lock",
+  "node_modules",
+  "vendor/bundle/",
+  "vendor/cache/",
+  "vendor/gems/",
+  "vendor/ruby/",
+  "lib/",
+  "scripts/",
+  "docker-compose.yml",
+  ]
