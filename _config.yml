@@ -24,7 +24,8 @@ about_profile_image: images/profile.jpg
 about_content: | # this will include new lines to allow paragraphs
   I am a M.S. student advised by James Wonki Hong at the Dept. of CSE, POSTCH, Korea. <br/>
   My reasearch interests lie in <mark>Machine Learning</mark> and <mark>Blockchain</mark>. <br/>
-  I'm also backend developer with business mind. 🚀 
+  I'm also backend developer with business mind. 🚀 <br/>
+  Love to work in a place where I can grow actively and quickly.
 
 content:
   - title: Experience # Title for the section
@@ -67,7 +68,6 @@ content:
           * **Excellent Award** in [2020 I-CORP](https://www.kitscenter.or.kr/home/main.do), **Encouragement Award** in [FESTA](https://m.yeongnam.com/view.php?key=20210130010003979)
 
   
-  
   - title: Education # Title for the section
     layout: list # Type of content section (list/text)
     content:
@@ -94,7 +94,7 @@ content:
           * 2016 ~ : Studied hard (got scholarship in 2018) and Internship ([SK C&C](https://www.skcc.co.kr/),  [Netmarble](https://www.netmarble.net/),  [EXEM](https://ex-em.com/),  [Fitogether](https://www.fitogether.com/)) 
           * *GPA 2.82/4.3*
           
-    - title: Education # Title for the section
+    - title: Skills # Title for the section
       - layout: left
         name: Backend
         description: | # this will include new lines to allow paragraphs
