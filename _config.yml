@@ -75,6 +75,8 @@ content:
         description: | # this will include new lines to allow paragraphs
           * Distributed Processing & Network Management ([DPNM](http://dpnm.postech.ac.kr/)) Lab
           * Mainly studied about blockchain technology
+          * MS Thesis : [Design and Implementation of Central Bank
+Digital Currency using Blockchain](http://dpnm.postech.ac.kr/thesis/22/Jungsoo_thesis.pdf)
           * Recipient of the POSTECH Alchemist Fellowship 2021 ($ 9,000)
           * *GPA 3.92/4.3* 
       - layout: left
