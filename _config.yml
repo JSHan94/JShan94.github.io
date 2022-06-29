@@ -16,36 +16,62 @@ darkmode: false
 
 # Social links
 github_username:  jshan94
-linkedin_username: saw1515
+linkedin_username: jungsu-han-9596a113a
 
 
 # About Section
 # about_title: About Me
 about_profile_image: images/profile.jpg
 about_content: | # this will include new lines to allow paragraphs
-  I am a M.S. student advised by James Wonki Hong at the Dept. of CSE, POSTCH, Korea. <br/>
-  My reasearch interests lie in <mark>Machine Learning</mark> and <mark>Blockchain</mark>. <br/>
-  I'm also backend developer with business mind. 🚀 <br/>
+  I'm blockchain developer with business mind. 🚀 <br/>
+  My reasearch interests lie in <mark>Cryptocurrencies</mark> and <mark>DeFi</mark>. <br/>
   Love to work in a place where I can grow actively and quickly.
 
 content:
   - title: Experience # Title for the section
     layout: list # Type of content section (list/text)
     content:
+      - layout : left
+        title : Terra
+        link : https://www.terra.money/
+        sub_title: Core Engineering
+        caption : 2022.04 - Current
+        quote : >
+          Terra is a blockchain protocol and payment platform used for algorithmic stablecoins.
+          
+        description : |
+          * Maintain SDK (Python and Javascript) for Terra mainnet 
+          * Develop smartcontract with CosmWasm 
+          * Develop terra 1.0 and 2.0 mainnet
+
+      - layout : left
+        title : GPEX
+        link : https://gpex.io/kr/
+        sub_title: Blockchain Developer
+        caption : 2022.01 - 2022.03 (3 month)
+        quote : >
+          GPEX, the high-speed platform moving illiquid brand points to highly liquid markets.
+          
+        description : |
+          * Setup GPEX network with [polygon-edge](https://github.com/0xPolygon/polygon-edge)
+          * Setup basic infra for GPEX ecosystem (Explorer with blockscout, Stats monitor with eth-stats)
+          * Setup bridge for interoperability with ethereum  
+
       - layout: left # or top-middle
         title: CryptoQuant
         link: https://cryptoquant.com/overview/btc-exchange-flows
         sub_title: Backend Developer
-        caption: 2019.7 - 2020.1 (7 month)
+        caption: 2019.07 - 2020.01 (7 month)
         quote: >
           Pre-A Quant service startup for Blockchain investing. <br/>
-          Actionable on-chain data, charts, alerts for investors in $BTC, $ETH, #Stablecoins.
+          Actionable on-chain data, charts, alerts for investors in $BTC, $ETH, $Stablecoins.
           
         description: | # this will include new lines to allow paragraphs
           * Analysis & Manufacture ETH & ERC-20 Stable coins on-chain data (about > 4TB)
-          * Migrate DB server (MySQL to PostgreSQL)
+          * Migrate DB server (Elastic Search to RDB)
           * Develop data query API for Quant service
           * Learn overall Blockchain industry & technology
+
   - title: Projects
     layout: list
     content:  # this will include new lines to allow paragraphs
@@ -96,17 +122,13 @@ content:
       - layout: left
         title: Backend
         description: | # this will include new lines to allow paragraphs
-          * Language : NodeJS, Python
-          * Framework : Linux, AWS, Firebase
-      - layout: left
-        title: Frontend
-        description: | # this will include new lines to allow paragraphs
-          * Language : Javascript (React)
+          * Language : TypeScript, Python
+          * Framework : Linux, AWS
       - layout: left
         title: Blockchain
         description: | # this will include new lines to allow paragraphs
-          * Language : Solidity, Go
-          * Framework : Remix, Blockchain Platforms(usually Ethereum, Cosmos)
+          * Language : Solidity, Go, Rust
+          * Framework : Ethereum, Cosmos-SDK, CosmWasm
       
       
     
