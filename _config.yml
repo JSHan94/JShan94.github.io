@@ -63,7 +63,7 @@ content:
         sub_title: Backend Developer
         caption: 2019.07 - 2020.01 (7 month)
         quote: >
-          Pre-A Quant service startup for Blockchain investing. <br/>
+          Quant service startup for Blockchain investing. <br/>
           Actionable on-chain data, charts, alerts for investors in $BTC, $ETH, $Stablecoins.
           
         description: | # this will include new lines to allow paragraphs
@@ -76,18 +76,21 @@ content:
     layout: list
     content:  # this will include new lines to allow paragraphs
       - layout: left
+        title: FastCampus Blockchain Lecture
+        caption: 2022.08 ~ 2022.11
+        description: | # this will include new lines to allow paragraphs
+          * FastCampus is the most popular online education platform for adults in korea
+          * Lecture topic - Wallet, Bridge, Block Explorer etc. 
+          * About 40 classes for 13 hours
+          * [Class Link](https://fastcampus.co.kr/dev_online_blockchain)
+      - layout: left
         title: Blockchain-based CBDC 
         caption: 2021.1 ~ 2021.11
         description: | # this will include new lines to allow paragraphs
           * CBDC (Central Bank Digital Currency) system using Blockchain
           * Collaboration with Hana Bank ([Demo](https://www.youtube.com/watch?v=DqvWH7rcHTU&ab_channel=POSTECHCCBR)) 
           * Related Papers : [Cos-CBDC: Design and Implementation of CBDC on Cosmos Blockchain](https://ieeexplore.ieee.org/abstract/document/9562672)
-      - layout: left
-        title: MyMu
-        caption: 2021.1 ~ 2021.3
-        description: | # this will include new lines to allow paragraphs
-          * Music Opensource Community Service [Pitching](https://youtu.be/yk07lsq_O7o)
-          * **Excellent Award** in [2020 I-CORP](https://www.kitscenter.or.kr/home/main.do),   **Encouragement Award** in [FESTA](https://m.yeongnam.com/view.php?key=20210130010003979)
+
   - title: Education # Title for the section
     layout: list # Type of content section (list/text)
     content:
@@ -96,26 +99,20 @@ content:
         caption: 2020.3 - 2022.2
         sub_title: MS Computer Science Engineering
         quote: >
-          While working at CryptoQuant, I thought the blockchain industry was interesting, so I applied to graduate school to study more.
-          Therefore, it is possible to understand the latest blockchain industry status and technical background such as NFT and Crypto urrency.
+          Studied the latest blockchain industry and technical background. Interested in Defi and Cryptocurrencies.
         description: | # this will include new lines to allow paragraphs
           * Distributed Processing & Network Management ([DPNM](http://dpnm.postech.ac.kr/)) Lab
-          * Mainly studied about blockchain technology
           * MS Thesis : [Design and Implementation of Central Bank Digital Currency using Blockchain](http://dpnm.postech.ac.kr/thesis/22/Jungsoo_thesis.pdf)
-          * Recipient of the POSTECH Alchemist Fellowship 2021 ($ 9,000)
+          * Recipient of the POSTECH Alchemist Fellowship 2021 ($ 10,000)
           * *GPA 3.92/4.3* 
       - layout: left
         title: POSTECH
         caption: 2013.3 - 2019.8
         sub_title: BS Computer Science Engineering
-        quote: >
-          I didn't adjust well when I was a freshman, but after I was discharged from the military, I tried to have a variety of experiences.<br/>
-          I have regrets for neglecting my studies, but that's why I want to work harder now.
         description: | # this will include new lines to allow paragraphs
           * 2013 ~ : Got academic probation 2 times in freshman due to my low grade
           * 2014 ~ : Enlisted in the army 
-          * 2016 ~ : Studied hard (got scholarship in 2018) and Internship ([SK C&C](https://www.skcc.co.kr/),  [Netmarble](https://www.netmarble.net/),  [EXEM](https://ex-em.com/),  [Fitogether](https://www.fitogether.com/)) 
-          * *GPA 2.82/4.3*  
+          * 2016 ~ : Got scholarship in 2018 and Complete internship programs ([SK C&C](https://www.skcc.co.kr/),  [Netmarble](https://www.netmarble.net/),  [EXEM](https://ex-em.com/),  [Fitogether](https://www.fitogether.com/)) 
   - title: Skills # Title for the section
     layout: list # Type of content section (list/text)
     content:
