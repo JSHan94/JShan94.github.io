@@ -43,6 +43,7 @@ content:
           * Familiar with Cosmos SDK module system (staking, bank, auth ...)
           * Develop smartcontract with CosmWasm 
           * Develop custom Comos modules (IBC, Wasm, Treasury)
+          * Introduce storage fee concept (but not merged) 
           * Maintain ETL SDK (Python and Javascript) for Terra mainnet 
           * Migrate terra 1.0 to terra
           
