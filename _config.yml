@@ -40,9 +40,12 @@ content:
           Terra is a blockchain protocol and payment platform used for algorithmic stablecoins.
           
         description : |
-          * Maintain SDK (Python and Javascript) for Terra mainnet 
+          * Familiar with Cosmos SDK module system (staking, bank, auth ...)
           * Develop smartcontract with CosmWasm 
-          * Develop terra 1.0 and 2.0 mainnet
+          * Develop custom Comos modules (IBC, Wasm, Treasury)
+          * Maintain ETL SDK (Python and Javascript) for Terra mainnet 
+          * Migrate terra 1.0 to terra
+          
 
       - layout : left
         title : GPEX
@@ -69,7 +72,7 @@ content:
         description: | # this will include new lines to allow paragraphs
           * Analysis & Manufacture ETH & ERC-20 Stable coins on-chain data (about > 4TB)
           * Migrate DB server (Elastic Search to RDB)
-          * Develop data query API for Quant service
+          * Develop API server for Quant service
           * Learn overall Blockchain industry & technology
 
   - title: Projects
@@ -86,7 +89,7 @@ content:
       - layout: left
         title: Blockchain-based CBDC 
         caption: 2021.1 ~ 2021.11
-        description: | # this will include new lines to allow paragraphs
+        description: |
           * CBDC (Central Bank Digital Currency) system using Blockchain
           * Collaboration with Hana Bank ([Demo](https://www.youtube.com/watch?v=DqvWH7rcHTU&ab_channel=POSTECHCCBR)) 
           * Related Papers : [Cos-CBDC: Design and Implementation of CBDC on Cosmos Blockchain](https://ieeexplore.ieee.org/abstract/document/9562672)
@@ -110,7 +113,6 @@ content:
         caption: 2013.3 - 2019.8
         sub_title: BS Computer Science Engineering
         description: | # this will include new lines to allow paragraphs
-          * 2013 ~ : Got academic probation 2 times in freshman due to my low grade
           * 2014 ~ : Enlisted in the army 
           * 2016 ~ : Got scholarship in 2018 and Complete internship programs ([SK C&C](https://www.skcc.co.kr/),  [Netmarble](https://www.netmarble.net/),  [EXEM](https://ex-em.com/),  [Fitogether](https://www.fitogether.com/)) 
   - title: Skills # Title for the section
@@ -118,14 +120,14 @@ content:
     content:
       - layout: left
         title: Backend
-        description: | # this will include new lines to allow paragraphs
+        description: |
           * Language : TypeScript, Python
           * Framework : Linux, AWS
       - layout: left
         title: Blockchain
-        description: | # this will include new lines to allow paragraphs
-          * Language : Solidity, Go, Rust
-          * Framework : Ethereum, Cosmos-SDK, CosmWasm
+        description: |
+          * Language :  Go
+          * Framework : Cosmos-SDK, CosmWasm, Move
       
       
     
