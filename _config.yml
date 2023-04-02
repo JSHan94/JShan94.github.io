@@ -6,7 +6,7 @@ favicon: images/favicon.ico
 version: 2
 
 # Personal info
-name: Jungsu Han
+name: Jungsu Han (Harvey)
 title: Backend Developer & Blockchain Researcher
 email: saw1515@postech.ac.kr
 website: www.github.com/jshan94
@@ -25,12 +25,34 @@ about_profile_image: images/profile.jpg
 about_content: | # this will include new lines to allow paragraphs
   I'm blockchain developer with business mind. 🚀 <br/>
   My reasearch interests lie in <mark>Cryptocurrencies</mark> and <mark>DeFi</mark>. <br/>
-  Love to work in a place where I can grow actively and quickly.
+  Love <mark>opensource projects</mark> and to work with <mark>passionate and hip people</mark>.<br/>
+  <ul>
+    <li>~2020: B.S in Computer Science and Get interested in Blockchain</li>
+    <li>~2022: M.S in Computer Science (Blockchain topics)</li>
+    <li>2022~: Work in Blockchain Industries (Terra, Initia Labs)</li>
+  </ul>
 
 content:
   - title: Experience # Title for the section
     layout: list # Type of content section (list/text)
     content:
+      - layout : left
+        title : Initia Labs
+        link : https://initia.co/
+        sub_title: Core Engineering
+        caption : 2022.09 - Current
+        quote : >
+          Initia is the first blockchain protocol using Move smart contract in Cosmos ecosystem.      
+        description : |
+          * Develop Initia Blockchain Protocol
+            * Integrate [MoveVM](https://github.com/move-language/move) with Cosmos SDK
+            * Make interface fitting on [Aptos](https://aptoslabs.com/community) protocol for mass adoption and usability
+          * Support Initita Ecosystem 
+            * SDK for interacting with Initia chain easily 
+            * ETL service for indexing chain transactions and handling massive query efficiently
+            * Remix Plugin for supporting Move Smart contract on Initia
+            * Writing documentation and tutorials for Initia
+
       - layout : left
         title : Terra
         link : https://www.terra.money/
