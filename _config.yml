@@ -23,13 +23,13 @@ linkedin_username: jungsu-han-9596a113a
 # about_title: About Me
 about_profile_image: images/profile.jpg
 about_content: | # this will include new lines to allow paragraphs
-  I'm blockchain developer with business mind. 🚀 <br/>
+  Bridging blockchain technology with real-world applications. <br/>
   My reasearch interests lie in <mark>Cryptocurrencies</mark> and <mark>DeFi</mark>. <br/>
   Love <mark>opensource projects</mark> and to work with <mark>passionate and hip people</mark>.<br/>
   <ul>
-    <li>~2020: B.S in Computer Science and Get interested in Blockchain</li>
-    <li>~2022: M.S in Computer Science (Blockchain topics)</li>
-    <li>2022~: Work in Blockchain Industries (Terra, Initia Labs)</li>
+    <li>~2020: B.S. in Computer Science (POSTECH)</li>
+    <li>~2022: M.S. in Computer Science (POSTECH)</li>
+    <li>2022~: Working in the Blockchain industry (Terra, Initia Labs)</li>
   </ul>
 
 content:
@@ -38,51 +38,40 @@ content:
     content:
       - layout : left
         title : Initia Labs
-        link : https://initia.co/
-        sub_title: Core Engineering
-        caption : 2022.09 - Current
+        link : https://app.initia.xyz/
+        sub_title: Core Engineering & DevRel
+        caption : 2023.01 - Current
         quote : >
-          Initia is the first blockchain protocol using Move smart contract in Cosmos ecosystem.      
+          Initia is a unified L1+L2 blockchain protocol that lets developers easily build custom rollups
         description : |
-          * Develop Initia Blockchain Protocol
-            * Integrate [MoveVM](https://github.com/move-language/move) with Cosmos SDK
-            * Make interface fitting on [Aptos](https://aptoslabs.com/community) protocol for mass adoption and usability
-          * Support Initita Ecosystem 
-            * SDK for interacting with Initia chain easily 
-            * ETL service for indexing chain transactions and handling massive query efficiently
-            * Remix Plugin for supporting Move Smart contract on Initia
-            * Writing documentation and tutorials for Initia
+          * Contributed to the core development of the Initia blockchain protocol
+            * Engineered and maintained [Initia MoveVM](https://github.com/initia-labs/movevm), the Move programming language
+            * Developed smart contracts and supporting infrastructure for decentralized applications
+          * Worked as DevRel
+            * Owned third-party onboarding, providing technical guidance and integration support
+            * Created technical content, including research articles and talks, to educate and engage the community
+            * Participated in community events, delivering presentations and hosting developer sessions
+          * Supported the Initia ecosystem by:
+            * Building tools for seamless integration with Initia chains (e.g., [initia.js](https://github.com/initia-labs/initia.js), [initia-registry](github.com/initia-labs/initia-registry))
+            * Implementing a high-performance ETL pipeline for indexing blockchain transactions and enabling large-scale data queries
+            * Authoring comprehensive [documentation](https://docs.initia.xyz/) and developer tutorials to enhance onboarding and adoption
 
       - layout : left
         title : Terra
         link : https://www.terra.money/
         sub_title: Core Engineering
-        caption : 2022.04 - Current
+        caption : 2022.04 - 2023.01
         quote : >
           Terra is a blockchain protocol and payment platform used for algorithmic stablecoins.
           
         description : |
-          * Familiar with Cosmos SDK module system (staking, bank, auth ...)
-          * Develop smartcontract with CosmWasm 
-          * Develop custom Comos modules (IBC, Wasm, Treasury)
-          * Introduce storage fee concept (but not merged) 
-          * Maintain ETL SDK (Python and Javascript) for Terra mainnet 
-          * Migrate terra 1.0 to terra
-          
-
-      - layout : left
-        title : GPEX
-        link : https://gpex.io/kr/
-        sub_title: Blockchain Developer
-        caption : 2022.01 - 2022.03 (3 month)
-        quote : >
-          GPEX, the high-speed platform moving illiquid brand points to highly liquid markets.
-          
-        description : |
-          * Setup GPEX network with [polygon-edge](https://github.com/0xPolygon/polygon-edge)
-          * Setup basic infra for GPEX ecosystem (Explorer with blockscout, Stats monitor with eth-stats)
-          * Setup bridge for interoperability with ethereum  
-
+          * Proficient in Cosmos SDK architecture, with hands-on experience in modules like staking, bank, and auth
+          * Developed and deployed smart contracts using CosmWasm
+          * Designed and implemented custom Cosmos modules including IBC, Wasm extensions, and Treasury logic
+          * Proposed and prototyped a novel storage fee mechanism (not merged)
+          * Maintained and optimized ETL SDKs (Python and JavaScript) for Terra Mainnet analytics
+          * Participated in the migration process from Terra Classic (1.0) to Terra 2.0
+        
       - layout: left # or top-middle
         title: CryptoQuant
         link: https://cryptoquant.com/overview/btc-exchange-flows
@@ -93,10 +82,10 @@ content:
           Actionable on-chain data, charts, alerts for investors in $BTC, $ETH, $Stablecoins.
           
         description: | # this will include new lines to allow paragraphs
-          * Analysis & Manufacture ETH & ERC-20 Stable coins on-chain data (about > 4TB)
-          * Migrate DB server (Elastic Search to RDB)
-          * Develop API server for Quant service
-          * Learn overall Blockchain industry & technology
+          * Engineered backend systems for large-scale analysis of Ethereum and ERC-20 stablecoin on-chain data (> 4TB)
+          * Led migration of backend infrastructure from Elasticsearch to a relational database system
+          * Developed robust API services powering real-time quant tools and data visualization dashboards
+          * Acquired broad technical and market knowledge of the blockchain and crypto analytics industry
 
   - title: Projects
     layout: list
