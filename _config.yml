@@ -8,7 +8,7 @@ version: 2
 # Personal info
 name: Jungsu Han (Harvey)
 title: Backend Developer & Blockchain Researcher
-email: saw1515@postech.ac.kr
+email: saw151515@gmail.com
 website: www.github.com/jshan94
 
 # Dark Mode (true/false/never)
@@ -38,22 +38,22 @@ content:
     content:
       - layout : left
         title : Initia Labs
-        link : https://app.initia.xyz/
-        sub_title: Core Engineering & DevRel
+        link : https://initia.xyz/
+        sub_title: Core Engineer & DevRel
         caption : 2023.01 - Current
         quote : >
           Initia is a unified L1+L2 blockchain protocol that lets developers easily build custom rollups
+
         description : |
-          * Contributed to the core development of the Initia blockchain protocol
-            * Engineered and maintained [Initia MoveVM](https://github.com/initia-labs/movevm), the Move programming language
-            * Developed smart contracts and supporting infrastructure for decentralized applications
+          * Worked as Core Engineer
+            * Contributed to the core development of the Initia blockchain protocol: [Initia MoveVM](https://github.com/initia-labs/movevm), [Initia Client](http://github.com/initia-labs/initia)
+            * Designed and implemented the [VIP contract](https://github.com/initia-labs/vip-contract) and supporting indexer, APIs, and bots
+            * Implemented the first version of OPinit bots for the Initia Optimistic bridging stack
+            * Built developer tools for seamless integration with Initia chains, including [initia.js](https://github.com/initia-labs/initia.js) and [initia-registry](github.com/initia-labs/initia-registry)
           * Worked as DevRel
             * Owned third-party onboarding, providing technical guidance and integration support
-            * Created technical content, including research articles and talks, to educate and engage the community
-            * Participated in community events, delivering presentations and hosting developer sessions
-          * Supported the Initia ecosystem by:
-            * Building tools for seamless integration with Initia chains (e.g., [initia.js](https://github.com/initia-labs/initia.js), [initia-registry](github.com/initia-labs/initia-registry))
-            * Implementing a high-performance ETL pipeline for indexing blockchain transactions and enabling large-scale data queries
+            * Created technical content, including research articles and talks, to educate and engage the community ([Mammothon](https://mammothon.celestia.org/))
+            * Participated in community events, delivering presentations and hosting developer sessions ([2024 ETHCC](https://ethcc.io/))
             * Authoring comprehensive [documentation](https://docs.initia.xyz/) and developer tutorials to enhance onboarding and adoption
 
       - layout : left
@@ -67,10 +67,9 @@ content:
         description : |
           * Proficient in Cosmos SDK architecture, with hands-on experience in modules like staking, bank, and auth
           * Developed and deployed smart contracts using CosmWasm
-          * Designed and implemented custom Cosmos modules including IBC, Wasm extensions, and Treasury logic
-          * Proposed and prototyped a novel storage fee mechanism (not merged)
+          * Proposed and prototyped a novel storage fee mechanism
           * Maintained and optimized ETL SDKs (Python and JavaScript) for Terra Mainnet analytics
-          * Participated in the migration process from Terra Classic (1.0) to Terra 2.0
+          * Participated in the migration process from Terra Classic to Terra 2.0
         
       - layout: left # or top-middle
         title: CryptoQuant
@@ -90,6 +89,10 @@ content:
   - title: Projects
     layout: list
     content:  # this will include new lines to allow paragraphs
+      - layout: left
+        title: Hackathon
+        description: |
+         * [2024 ETHseoul 1st Prize (Celo Track)](https://ethseoul2024.devfolio.co/projects?prizes=38a8ac53a601405494592ce3ac82f41b&show_winners=true)
       - layout: left
         title: FastCampus Blockchain Lecture
         caption: 2022.08 ~ 2022.11
