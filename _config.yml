@@ -7,7 +7,7 @@ version: 2
 
 # Personal info
 name: Jungsu Han (Harvey)
-title: Backend Developer & Blockchain Researcher
+title: On-chain Analytics & Ecosystem Support
 email: saw151515@gmail.com
 website: www.github.com/jshan94
 
@@ -23,13 +23,13 @@ linkedin_username: jungsu-han-9596a113a
 # about_title: About Me
 about_profile_image: images/profile.jpg
 about_content: | # this will include new lines to allow paragraphs
-  Bridging blockchain technology with real-world applications. <br/>
-  My reasearch interests lie in <mark>Cryptocurrencies</mark> and <mark>DeFi</mark>. <br/>
-  Love <mark>opensource projects</mark> and to work with <mark>passionate and hip people</mark>.<br/>
+  Driving growth in Web3 through on-chain analytics, partnerships, and community engagement. <br/>
+  Experienced in <mark>affiliate program management</mark>, <mark>regional marketing</mark>, and <mark>ecosystem growth</mark> in Korea and Japan.<br/>
+  Passionate about connecting blockchain technology with real users and building sustainable communities.<br/>
   <ul>
-    <li>~2020: B.S. in Computer Science (POSTECH)</li>
-    <li>~2022: M.S. in Computer Science (POSTECH)</li>
-    <li>2022~: Working in the Blockchain industry (Terra, Initia Labs)</li>
+    <li>B.S. & M.S. in Computer Science (POSTECH)</li>
+    <li>Experience in blockchain core engineering and developer relations</li>
+    <li>Focused on growth, partnerships, and marketing across Korea regions</li>
   </ul>
 
 content:
@@ -45,17 +45,17 @@ content:
           Initia is a unified L1+L2 blockchain protocol that lets developers easily build custom rollups
 
         description : |
+          * Worked as DevRel & Ecosystem Growth
+            * Led third-party onboarding, providing technical guidance and managing partnerships
+            * Produced technical and community-facing content (research articles, talks) to educate and grow the ecosystem ([Mammothon](https://mammothon.celestia.org/))
+            * Organized community events, delivered presentations, and hosted developer sessions ([ETHCC 2024](https://ethcc.io/))
+            * Authored comprehensive [documentation](https://docs.initia.xyz/) and tutorials to accelerate developer adoption and user growth
           * Worked as Core Engineer
             * Contributed to the core development of the Initia blockchain protocol: [Initia MoveVM](https://github.com/initia-labs/movevm), [Initia Client](http://github.com/initia-labs/initia)
             * Designed and implemented the [VIP contract](https://github.com/initia-labs/vip-contract) and supporting indexer, APIs, and bots
             * Implemented the first version of OPinit bots for the Initia Optimistic bridging stack
             * Built developer tools for seamless integration with Initia chains, including [initia.js](https://github.com/initia-labs/initia.js) and [initia-registry](github.com/initia-labs/initia-registry)
-          * Worked as DevRel
-            * Owned third-party onboarding, providing technical guidance and integration support
-            * Created technical content, including research articles and talks, to educate and engage the community ([Mammothon](https://mammothon.celestia.org/))
-            * Participated in community events, delivering presentations and hosting developer sessions ([2024 ETHCC](https://ethcc.io/))
-            * Authoring comprehensive [documentation](https://docs.initia.xyz/) and developer tutorials to enhance onboarding and adoption
-
+          
       - layout : left
         title : Terra
         link : https://www.terra.money/
@@ -92,6 +92,7 @@ content:
       - layout: left
         title: Hackathon
         description: |
+         * [2025 Hyperliquid Hackathon Seoul - Prize Winner](https://luma.com/5wzngdgk?tk=HLeiBN)
          * [2024 ETHseoul 1st Prize (Celo Track)](https://ethseoul2024.devfolio.co/projects?prizes=38a8ac53a601405494592ce3ac82f41b&show_winners=true)
       - layout: left
         title: FastCampus Blockchain Lecture
@@ -143,8 +144,6 @@ content:
         description: |
           * Language :  Go
           * Framework : Cosmos-SDK, CosmWasm, Move
-      
-      
     
 # Footer
 footer_show_references: true
