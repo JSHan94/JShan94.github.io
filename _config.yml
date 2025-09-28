@@ -94,6 +94,13 @@ content:
          * [2025 Hyperliquid Hackathon Seoul - Prize Winner](https://luma.com/5wzngdgk?tk=HLeiBN)
          * [2024 ETHseoul 1st Prize (Celo Track)](https://ethseoul2024.devfolio.co/projects?prizes=38a8ac53a601405494592ce3ac82f41b&show_winners=true)
       - layout: left
+        title: CURG (Crypto Users Research Group)
+        caption: 2024.03 ~
+        description: |
+          * Organized seminars, meetups, and guest speaker sessions to promote blockchain adoption
+          * Hosted academic–industry networking events, engaging students, developers, and startup founders
+          * Built early community momentum that connected local researchers with the global blockchain ecosystem
+      - layout: left
         title: FastCampus Blockchain Lecture
         caption: 2022.08 ~ 2022.11
         description: | # this will include new lines to allow paragraphs
