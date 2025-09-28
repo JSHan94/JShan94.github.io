@@ -143,15 +143,11 @@ content:
     layout: list # Type of content section (list/text)
     content:
       - layout: left
-        title: Backend
+        title: Languages
         description: |
-          * Language : TypeScript, Python
-          * Framework : Linux, AWS
-      - layout: left
-        title: Blockchain
-        description: |
-          * Language :  Go
-          * Framework : Cosmos-SDK, CosmWasm, Move
+          * Korean: Native
+          * English: Business proficiency
+          * Japanese: Business proficiency
     
 # Footer
 footer_show_references: true
