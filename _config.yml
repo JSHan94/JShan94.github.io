@@ -26,9 +26,9 @@ about_content: | # this will include new lines to allow paragraphs
   Driving growth in Web3 through on-chain analytics, partnerships, and community engagement. <br/>
   Passionate about connecting blockchain technology with real users and building sustainable communities.<br/>
   <ul>
-    <li>B.S. & M.S. in Computer Science (POSTECH)</li>
     <li>Experience in blockchain core engineering and developer relations</li>
     <li>Focused on growth, partnerships, and marketing across Korea regions</li>
+    <li>Bridging technical expertise with ecosystem strategy and on-chain analytics</li>
   </ul>
 
 content:
@@ -44,15 +44,15 @@ content:
           Initia is a unified L1+L2 blockchain protocol that lets developers easily build custom rollups
 
         description : |
-          * Worked as DevRel & Ecosystem Growth
+          * Worked as DevRel & Ecosystem Growth (2025 ~)
             * Led third-party onboarding, providing technical guidance and managing partnerships
             * Produced technical and community-facing content (research articles, talks) to educate and grow the ecosystem ([Mammothon](https://mammothon.celestia.org/))
             * Organized community events, delivered presentations, and hosted developer sessions ([ETHCC 2024](https://ethcc.io/))
             * Authored comprehensive [documentation](https://docs.initia.xyz/) and tutorials to accelerate developer adoption and user growth
-          * Worked as Core Engineer
+          * Worked as Core Engineer (2023 ~ 2025)
             * Contributed to the core development of the Initia blockchain protocol: [Initia MoveVM](https://github.com/initia-labs/movevm), [Initia Client](http://github.com/initia-labs/initia)
-            * Designed and implemented the [VIP contract](https://github.com/initia-labs/vip-contract) and supporting indexer, APIs, and bots
-            * Implemented the first version of OPinit bots for the Initia Optimistic bridging stack
+            * Designed and implemented the [VIP contract](https://github.com/initia-labs/vip-contract) and supporting [indexer](https://github.com/initia-labs/vip-indexer), [APIs](https://github.com/initia-labs/vip-api), and [bots](https://github.com/initia-labs/vip-bot)
+            * Implemented the first version of [OPinit bots](https://github.com/initia-labs/opinit-bots) for the Initia Optimistic bridging stack
             * Built developer tools for seamless integration with Initia chains, including [initia.js](https://github.com/initia-labs/initia.js) and [initia-registry](github.com/initia-labs/initia-registry)
           
       - layout : left
@@ -99,17 +99,13 @@ content:
         description: |
           * CURG is Korea-based developer community of blockchain engineers and builders
           * Contributed to the ecosystem through open-source projects, research, and collaborative building
-          * Organized seminars, meetups, and guest speaker sessions to promote blockchain adoption
-          * Hosted academic–industry networking events, engaging students, developers, and startup founders
-          * Served as a core organizer, managing community operations and coordinating initiatives
+          * Hosted academic–industry networking events, engaging students, developers, and startup founders ([LINK](https://www.youtube.com/watch?v=0V9t09yV1Hc&t=194s))
       - layout: left
         title: FastCampus Blockchain Lecture
         caption: 2022.08 ~ 2022.11
         description: | # this will include new lines to allow paragraphs
-          * FastCampus is the most popular online education platform for adults in korea
-          * Lecture topic - Wallet, Bridge, Block Explorer etc. 
-          * About 40 classes for 13 hours
-          * [Class Link](https://fastcampus.co.kr/dev_online_blockchain)
+          * FastCampus is the most popular online education platform in korea
+          * Lecture topic - Wallet, Bridge, Block Explorer etc (About 40 classes for 13 hours). 
       - layout: left
         title: Blockchain-based CBDC 
         caption: 2021.1 ~ 2021.11
