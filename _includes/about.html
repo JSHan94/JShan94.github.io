@@ -1,0 +1,14 @@
+<div class="container intro-container">
+  <h3 id="{{ include.resume.about_title | default: site.about_title | slugify | default: 'about-me' }}">{{ include.resume.about_title | default: site.about_title | default: "About Me" }}</h3>
+  <div class="row clearfix">
+    {%- assign resume_profile_image = include.resume.about_profile_image | default: site.about_profile_image -%}
+    {%- if resume_profile_image -%}
+      <div class="col-xs-12 col-sm-4 col-md-3 no-print">
+        <span class="profile-img" style="background-image: url({{ resume_profile_image | relative_url }})"></span>
+      </div>
+    {%- endif -%}
+    <div class="{{ 'col-xs-12 ' }}{%- if resume_profile_image -%}col-sm-8 col-md-9 col-print-12{%- endif -%}">
+      {{ include.resume.about_content | default: site.about_content | strip | markdownify }}
+    </div>
+  </div>
+</div>

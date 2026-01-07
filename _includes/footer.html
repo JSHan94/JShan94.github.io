@@ -1,0 +1,10 @@
+<div class="container footer-container">
+  <p>
+    {{ include.resume.name | default: site.name | escape }} -
+    <a href="mailto:{{ include.resume.email | default: site.email }}" target="_blank">{{ include.resume.email | default: site.email | escape }}</a>
+    {%- assign resume_footer_show_references = include.resume.footer_show_references | default: site.footer_show_references -%}
+    {%- if resume_footer_show_references -%}
+      &nbsp;- {{ include.resume.references_title | default: site.references_title | default: "References on request" }}
+    {%- endif -%}
+  </p>
+</div>

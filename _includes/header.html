@@ -1,0 +1,143 @@
+<div class="container header-container">
+  <div class="row">
+    <div class="col-xs-12 col-sm-6 col-md-6 col-lg-8 header-left">
+      <h1>{{ include.resume.name | default: site.name | escape }}</h1>
+      <h2>{{ include.resume.title | default: site.title | escape }}</h2>
+    </div>
+    <div class="col-xs-12 col-sm-6 col-md-6 col-lg-4 header-right">
+      <ul class="icons no-print">
+        {%- assign resume_dribbble = include.resume.dribbble_username | default: site.dribbble_username -%}
+        {%- if resume_dribbble -%}
+          <li>
+            <a target="_blank" href="https://dribbble.com/{{ resume_dribbble | cgi_escape | escape }}" class="button button--sacnite button--round-l">
+              <i class="fab fa-dribbble-square" title="Dribble link"></i>
+            </a>
+          </li>
+        {%- endif -%}
+        {%- assign resume_facebook = include.resume.facebook_username | default: site.facebook_username -%}
+        {%- if resume_facebook -%}
+          <li>
+            <a target="_blank" href="https://www.facebook.com/{{ resume_facebook | cgi_escape | escape }}" class="button button--sacnite button--round-l">
+              <i class="fab fa-facebook" title="Facebook link"></i>
+            </a>
+          </li>
+        {%- endif -%}
+        {%- assign resume_flickr = include.resume.flickr_username | default: site.flickr_username -%}
+        {%- if resume_flickr -%}
+          <li>
+            <a target="_blank" href="https://www.flickr.com/photos/{{ resume_flickr | cgi_escape | escape }}" class="button button--sacnite button--round-l">
+              <i class="fab fa-flickr" title="Flickr link"></i>
+            </a>
+          </li>
+        {%- endif -%}
+        {%- assign resume_github = include.resume.github_username | default: site.github_username -%}
+        {%- if resume_github -%}
+          <li>
+            <a target="_blank" href="https://github.com/{{ resume_github | cgi_escape | escape }}" class="button button--sacnite button--round-l">
+              <i class="fab fa-github" title="Github link"></i>
+            </a>
+          </li>
+        {%- endif -%}
+        {%- assign resume_stackoverflow = include.resume.stackoverflow_username | default: site.stackoverflow_username -%}
+        {%- if resume_stackoverflow -%}
+          <li>
+            <a target="_blank" href="https://stackoverflow.com/users/{{ resume_stackoverflow | cgi_escape | escape }}" class="button button--sacnite button--round-l">
+              <i class="fab fa-stack-overflow" title="Stackoverflow link"></i>
+            </a>
+          </li>
+        {%- endif -%}
+        {%- assign resume_instagram = include.resume.instagram_username | default: site.instagram_username -%}
+        {%- if resume_instagram -%}
+          <li>
+            <a target="_blank" href="https://www.instagram.com/{{ resume_instagram | cgi_escape | escape }}" class="button button--sacnite button--round-l">
+              <i class="fab fa-instagram" title="Instagram link"></i>
+            </a>
+          </li>
+        {%- endif -%}
+        {%- assign resume_linkedin = include.resume.linkedin_username | default: site.linkedin_username -%}
+        {%- if resume_linkedin -%}
+          <li>
+            <a target="_blank" href="https://www.linkedin.com/in/{{ resume_linkedin | cgi_escape | escape }}" class="button button--sacnite button--round-l">
+              <i class="fab fa-linkedin" title="Linkedin link"></i>
+            </a>
+          </li>
+        {%- endif -%}
+        {%- assign resume_xing = include.resume.xing_username | default: site.xing_username -%}
+        {%- if resume_xing -%}
+          <li>
+            <a target="_blank" href="https://www.xing.com/profile/{{ resume_xing | cgi_escape | escape }}" class="button button--sacnite button--round-l">
+              <i class="fab fa-xing" title="Xing link"></i>
+            </a>
+          </li>
+        {%- endif -%}
+        {%- assign resume_pinterest = include.resume.pinterest_username | default: site.pinterest_username -%}
+        {%- if resume_pinterest -%}
+          <li>
+            <a target="_blank" href="https://www.pinterest.com/{{ resume_pinterest | cgi_escape | escape }}" class="button button--sacnite button--round-l">
+              <i class="fab fa-pinterest" title="Pintrest link"></i>
+            </a>
+          </li>
+        {%- endif -%}
+        {%- assign resume_twitter = include.resume.twitter_username | default: site.twitter_username -%}
+        {%- if resume_twitter -%}
+          <li>
+            <a target="_blank" href="https://twitter.com/{{ resume_twitter | cgi_escape | escape }}" class="button button--sacnite button--round-l">
+              <i class="fab fa-twitter" title="Twitter link"></i>
+            </a>
+          </li>
+        {%- endif -%}
+        {%- assign resume_youtube = include.resume.youtube_username | default: site.youtube_username -%}
+        {%- if resume_youtube -%}
+          <li>
+            <a target="_blank" href="https://www.youtube.com/{{ resume_youtube | cgi_escape | escape }}" class="button button--sacnite button--round-l">
+              <i class="fab fa-youtube" title="Youtube link"></i>
+            </a>
+          </li>
+        {%- endif -%}
+        {%- assign resume_orcid = include.resume.orcid_username | default: site.orcid_username -%}
+        {%- if resume_orcid -%}
+          <li>
+            <a target="_blank" href="https://orcid.org/{{ resume_orcid | escape }}" class="button button--sacnite button--round-l">
+              <i class="fab fa-orcid" title="ORCiD link"></i>
+            </a>
+          </li>
+        {%- endif -%}
+        {%- assign resume_googlescholar = include.resume.googlescholar_username | default: site.googlescholar_username -%}
+        {%- if resume_googlescholar -%}
+          <li>
+            <a target="_blank" href="https://scholar.google.com/citations?user={{ resume_googlescholar | escape }}" class="button button--sacnite button--round-l">
+              <i class="fab fa-google" title="Google scholar link"></i>
+            </a>
+          </li>
+        {%- endif -%}
+        {%- assign resume_additional_links = include.resume.additional_links | default: site.additional_links -%}
+        {% for link in resume_additional_links %}
+          <li>
+            {% include a.html href=link.url class="button button--sacnite button--round-l" %}
+              <i class="{{ link.icon }}" title="{{ link.title | escape }}"></i>
+            </a>
+          </li>
+        {% endfor %}
+      </ul>
+
+      {%- assign resume_email = include.resume.email | default: site.email -%}
+      {%- if resume_email -%}
+        <p>
+          {{ include.resume.email_title | default: site.email_title | default: "Email" }}: <a href="mailto:{{ resume_email }}" target="_blank">{{ resume_email | escape }}</a>
+        </p>
+      {%- endif -%}
+      {%- assign resume_phone = include.resume.phone | default: site.phone -%}
+      {%- if resume_phone -%}
+        <p>
+          {{ include.resume.phone_title | default: site.phone_title | default: "Phone" }}: {{ resume_phone | escape }}
+        </p>
+      {%- endif -%}
+      {%- assign resume_website = include.resume.website | default: site.website -%}
+      {%- if resume_website -%}
+        <p>
+          {{ include.resume.website_title | default: site.website_title | default: "Web" }}: {% include a.html href=resume_website %}{{ resume_website | escape }}</a>
+        </p>
+      {%- endif -%}
+    </div>
+  </div>
+</div>

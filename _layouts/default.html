@@ -1,0 +1,51 @@
+{%- assign resume = site -%}
+{%- if page.resume -%}
+{%- assign resume_lookup = site.data[page.resume] -%}
+{%- if resume_lookup -%}
+{%- assign resume = resume_lookup -%}
+{%- endif -%}
+{%- endif -%}
+
+{%- assign resume_lang = page.lang | default: resume.lang | default: site.lang | default: 'en' -%}
+{%- assign resume_darkmode = resume.darkmode | default: site.darkmode -%}
+{%- assign resume_version = resume.version | default: site.version -%}
+{%- assign resume_content = resume.content | default: site.content -%}
+
+<!DOCTYPE html>
+<html lang="{{ resume_lang }}">
+
+{%- include head.html resume=resume -%}
+
+<body class="{% if resume_darkmode == true and resume_darkmode != 'never' %}dark{% endif %}">
+
+  {%- include header.html resume=resume -%}
+
+  <main class="page-content" aria-label="Content">
+    <div class="wrapper">
+
+      {%- if jekyll.environment == 'production' and resume.gtm -%}
+      {%- include gtm_body.html -%}
+      {%- endif -%}
+
+      {%- include about.html resume=resume -%}
+
+      {%- if resume_version == 2 -%}
+      {% for section in resume_content %}
+      <div class="container {{ section.layout }}-container">
+        <h3 id="{{ section.title | slugify }}">{{ section.title }}</h3>
+        {% include {{ section.layout | prepend: "section-" | append: ".html" }} content=section.content resume=resume %}
+      </div>
+      {% endfor %}
+      {% else %}
+      {%- include v1/default.html -%}
+      {%- endif -%}
+    </div>
+  </main>
+
+  {%- include footer.html resume=resume -%}
+  {% if resume_darkmode == false %}
+  <script src="{{ '/assets/js/index.js' | relative_url }}"></script>
+  {% endif %}
+</body>
+
+</html>
