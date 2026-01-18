@@ -1,0 +1,178 @@
+version: 2
+lang: en
+name: Jungsu Han
+title: Blockchain Core & Smart Contract Engineer
+email: saw151515@gmail.com
+website: www.github.com/jshan94
+github_username: jshan94
+linkedin_username: jungsu-han-9596a113a
+darkmode: false
+
+about_title: About Me
+about_profile_image: images/profile.jpg
+about_content: |
+  I'm a blockchain engineer with hands-on experience building mainnet cores and dApp ecosystems across diverse environments including MoveVM, Cosmos SDK, and CosmWasm.<br/>
+  Beyond writing code, I excel at <b>End-to-End system design</b> that spans from on-chain contracts to indexers, bots, and SDKs.<br/>
+  <ul>
+    <li>Experienced in Terra mainnet migration and Initia core development</li>
+    <li>Smart contract design and infrastructure built on security-first principles</li>
+    <li>Driving developer experience (DX) and ecosystem growth by solving technical complexity</li>
+  </ul>
+
+content:
+  - title: Experience
+    layout: list
+    content:
+      - layout: left
+        title: Initia Labs
+        link: https://initia.xyz/
+        sub_title: Core Engineer & DevRel
+        caption: 2023.01 - 2025.12
+        quote: >
+          MoveVM-based integrated L1+L2 blockchain protocol
+        description: |
+          - **Tech Stack**: Go, Move, TypeScript, PostgreSQL, Docker, GCP
+          - **About the Service**: Initia is a platform that enables developers to easily build interoperable custom L2 rollups. As a core engineer, I was solely responsible for designing and implementing the **End-to-End architecture** of the L1-L2 bridge system and the membership (VIP) system.
+
+            **1. Cosmos SDK + MoveVM Integration & Standard SDK Development**
+            * **Designed and implemented Aptos MoveVM-based Cosmos SDK execution layer** ([MoveVM](https://github.com/initia-labs/movevm))
+              - Developed the `x/move` module to port Aptos MoveVM to Cosmos SDK runtime. To prevent data fragmentation between Cosmos SDK's `x/bank` store and MoveVM's Fungible Asset resources, we maintained a Keeper delegation structure that centralizes balance and supply management authority in MoveVM.
+              - Built a bidirectional mapping pipeline connecting Cosmos's `Denom` system with Move's `Object-Metadata` address system, integrating Move assets without disrupting existing Cosmos wallet and explorer environments.
+
+            * **Built heterogeneous data serialization pipeline for MoveVM execution** ([Initia core](http://github.com/initia-labs/initia))
+              - The hybrid structure combining Cosmos SDK (Protobuf) and MoveVM (BCS) creates double encoding complexity during transaction creation.
+              - Implemented a builder pipeline that serializes JS parameters into **BCS (Binary Canonical Serialization)** and then injects them into **Protobuf** transaction payloads.
+              - Abstracted the complex serialization process into a single API call, improving dApp integration productivity for in-house and partner teams.
+
+            * **Fine-tuned connection pool for RPC communication stability (SDK)** ([initia.js](https://github.com/initia-labs/initia.js))
+              - During initial dApp startup, dozens of RPC requests caused load balancer imbalance and **socket hang-up** errors.
+              - Rather than unconditionally maintaining connections, we precisely tuned **`KeepAliveMsecs`** and **`MaxSockets`** parameters to match traffic patterns and added automatic retry logic.
+              - Eliminated unnecessary handshake costs to stabilize latency and reduced connection drop frequency during long-term operation to ensure communication reliability.
+              - With the business strategy shift from the initial Cosmos standard (CoinType 118) structure to EVM compatibility (CoinType 60) support, we designed a flexible architecture by separating the `BIP-44 standard`-based address and signature modules to dynamically switch CoinType at runtime. As a result, we prevented fragmentation between heterogeneous chains by supporting both Initia L1 and EVM L2 with a single SDK.
+
+            **2. End-to-End construction of Initia incentive tokenomics**
+
+            * **Designed Initia incentive system ([VIP contract](https://github.com/initia-labs/vip-contract))**
+              - Built a fully on-chain & verifiable incentive protocol
+              1. Made on-chain the core logic that recognizes L2 deposited assets as L1 security stake (Staking) to ensure transparency and verifiability.
+              2. Dynamic Snapshot Pipeline: Real-time recording of L2 TVL and user activity scores in Table structures, combining them with Cosmos Voting Power to implement dynamic reward calculation logic verifiable by anyone on-chain.
+              - Designed Merkle Proof-based incentive distribution architecture
+              1. Shifted from directly pushing rewards to tens of thousands of users to a pull-based (User Claim) approach where operators only update the Merkle Root on-chain. This reduced operator transaction frequency, saving over 99% in gas costs and minimizing network load.
+              2. While requiring users to submit proof themselves creates a UX hurdle compared to real-time automatic distribution, this is a necessary trade-off for scalability and verifiability. Users can independently verify the legitimacy of their rewards through the on-chain Root at any time.
+              3. Established safeguards by setting a Challenge Window period for incorrect Root submissions, enabling operators to immediately rollback or correct improper data, ensuring on-chain data integrity.
+              - Advanced contract logic and security improvements
+              1. Eliminated asset commingling risks and strengthened ownership structure by isolating user-specific Staking Positions as independent Objects based on `ExtendRef` (object control rights) - a Move language feature.
+              2. Implemented on-chain logic enforcing limits on Commission change magnitude and Reward Pool withdrawal caps to prevent malicious operator behavior.
+
+            * **Built End-to-End dApp infrastructure (API, Indexer, Bot)**
+              - When submitting reward calculation data, the node query-based nonce lookup approach caused Nonce Mismatch and cascading failures due to network delays. Built a Managed Nonce System that directly manages nonce at the application layer to maximize parallel processing speed.
+              - To prevent the 'data loss on abnormal process termination' risk inherent in in-memory nonce management, implemented a Persistence-based Retry mechanism that persists failed or unprocessed transactions to DB.
+              - Achieved fully automated operation without manual intervention, successfully processing thousands of snapshot submission transactions without loss. Achieved 24/7 uptime with a Failover system that immediately switches to backup nodes during RPC Node failures.
+
+            **3. DevRel & Ecosystem Growth (2025)**
+            * **Partnership management and technical guidance**
+              Led third-party onboarding and provided technical guides, managing partnerships ([Initia Official Docs](https://github.com/initia-labs/docs)).
+            * **Technical content creation for ecosystem expansion**
+              Contributed to ecosystem education and expansion through research articles, presentations, and technical/community-targeted content ([Mammothon](https://mammothon.celestia.org/)).
+            * **Global community event planning and operation**
+              Planned and presented at community events, conducted developer sessions ([ETHCC 2024](https://ethcc.io/)).
+            * **Developer documentation and tutorial writing**
+              Wrote comprehensive documentation and tutorials to accelerate developer adoption and user growth.
+
+      - layout: left
+        title: Terra
+        link: https://www.terra.money/
+        sub_title: Core Engineering
+        caption: 2022.04 - 2023.01
+        quote: >
+          Cosmos SDK-based global Layer 1 blockchain protocol
+        description: |
+          - **Tech Stack**: Go, Rust (CosmWasm), TypeScript, Python, Tendermint Core
+          - **About the Service**: Developed core modules for the Terra blockchain and participated in technical migration for network reconstruction (Terra 2.0) following a major ecosystem collapse.
+
+          **1. State Rent mechanism R&D for blockchain storage efficiency**
+          - Researched node storage economic models to solve the chronic blockchain problem of State Bloat (state data expansion).
+          - Designed and prototyped a **State Rent mechanism** that differentially charges fees proportional to data occupation period and size.
+
+          **2. Core SDK emergency migration for Terra 2.0 genesis launch**
+          - During network hard fork (Phoenix-1) and reconstruction, redesigned client library architecture ([terra.js](https://github.com/terra-money/terra.js), [terra.py](https://github.com/terra-money/terra.py)) to restore the ecosystem.
+          - Enhanced SDK communication module transaction builders to align with changed Gas Policy and signature specifications to new specs.
+          - Supported immediate integration for exchanges and dApps on mainnet 2.0 launch day, minimizing ecosystem gaps and securing low-level technical capabilities across the entire blockchain interaction lifecycle from signing to propagation to indexing.
+
+      - layout: left
+        title: CryptoQuant
+        link: https://cryptoquant.com/
+        sub_title: Backend Developer
+        caption: 2019.07 - 2020.01 (7 months)
+        quote: >
+          On-chain data platform for global cryptocurrency investors
+        description: |
+          - **Tech Stack**: Python, PostgreSQL
+          - **About the Service**: Processes on-chain data from major chains like Bitcoin and Ethereum, providing investors with key metrics such as whale wallet movements and exchange flows.
+
+          **1. In-house node construction and large-scale on-chain data pipeline optimization**
+          - Faced rising costs and architectural limitations due to initial reliance on third-party nodes (Infura, etc.) with processed data focus.
+          - Built in-house nodes (Geth) directly and redesigned from a processed data-centric storage approach to a flexible pipeline that stores Raw Data (Block/Tx/Trace) then performs ETL processing (Post-processing).
+          - Reduced external infrastructure costs by **over 80%** and established a data environment enabling immediate calculation of new metrics on historical data.
+
+          **2. Migration from Elasticsearch to RDB and query performance enhancement**
+          - Needed to solve data consistency (ACID) limitations and inefficient complex relational query (Join) processing in the existing Elasticsearch-based architecture.
+          - Migrated the main storage to **PostgreSQL** to ensure financial-grade data integrity, applying table partitioning strategies and Materialized Views tailored to time-series characteristics.
+          - Ultimately shortened complex on-chain metric query speeds and completed a stable tracking structure for large-scale transaction data.
+
+  - title: Projects
+    layout: list
+    content:
+      - layout: left
+        title: Hackathons
+        description: |
+         * [2025 Hyperliquid Hackathon Seoul - Prize Winner](https://luma.com/5wzngdgk?tk=HLeiBN)
+         * [2024 ETHseoul 1st Prize (Celo Track)](https://ethseoul2024.devfolio.co/projects?prizes=38a8ac53a601405494592ce3ac82f41b&show_winners=true)
+      - layout: left
+        title: CURG
+        caption: 2024.03 ~
+        description: |
+          * Korea-based developer community centered on blockchain engineers and builders
+          * Contributing to the ecosystem through open source, research, and collaborative building
+          * Organizing academia-industry networking events, engaging with students, developers, and startup founders ([LINK](https://www.youtube.com/watch?v=0V9t09yV1Hc&t=194s))
+      - layout: left
+        title: FastCampus Blockchain Lecture
+        caption: 2022.08 ~ 2022.11
+        description: |
+          * Lectured on Korea's leading online education platform FastCampus
+          * 13 hours, 40 lessons covering topics such as wallets, bridges, and block explorers
+
+  - title: Education
+    layout: list
+    content:
+      - layout: left
+        title: POSTECH (Pohang University of Science and Technology)
+        caption: 2020.3 - 2022.2
+        sub_title: M.S. in Computer Science and Engineering
+        quote: >
+          Researched cutting-edge blockchain industry and technical backgrounds. Interested in DeFi and cryptocurrencies.
+        description: |
+          * Distributed Processing and Network Management Lab ([DPNM](http://dpnm.postech.ac.kr/))
+          * Master's Thesis: [Design and Implementation of Central Bank Digital Currency using Blockchain](http://dpnm.postech.ac.kr/thesis/22/Jungsoo_thesis.pdf)
+          * POSTECH Alchemist Fellowship 2021 recipient ($10,000)
+          * *GPA 3.92/4.3*
+      - layout: left
+        title: POSTECH (Pohang University of Science and Technology)
+        caption: 2013.3 - 2019.8
+        sub_title: B.S. in Computer Science and Engineering
+        description: |
+          * 2014 ~ Military Service
+          * 2016 ~ 2018 Scholarship recipient, internships ([SK C&C](https://www.skcc.co.kr/), [Netmarble](https://www.netmarble.net/), [EXEM](https://ex-em.com/), [Fitogether](https://www.fitogether.com/))
+
+  - title: Skills
+    layout: list
+    content:
+      - layout: left
+        title: Languages
+        description: |
+          * Korean: Native
+          * English: Business proficient
+          * Japanese: Business proficient
+
+footer_show_references: true
+references_title: References available upon request
