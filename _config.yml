@@ -7,7 +7,7 @@ version: 2
 
 # Personal info
 name: Jungsu Han (Harvey)
-title: On-chain Analytics & Ecosystem Support
+title: AI Instructor & Mentor | Blockchain Engineer
 email: saw151515@gmail.com
 website: www.github.com/jshan94
 
@@ -23,6 +23,7 @@ linkedin_username: jungsu-han-9596a113a
 # about_title: About Me
 about_profile_image: images/profile.jpg
 about_content: | # this will include new lines to allow paragraphs
+  I am a freelance AI instructor, mentor, and educational content creator, turning engineering experience into practical AI learning.<br/>
   Driving growth in Web3 through on-chain analytics, partnerships, and community engagement. <br/>
   Passionate about connecting blockchain technology with real users and building sustainable communities.<br/>
   <ul>
@@ -32,6 +33,47 @@ about_content: | # this will include new lines to allow paragraphs
   </ul>
 
 content:
+  - title: AI Teaching & Mentoring
+    layout: list
+    content:
+      - layout: left
+        title: Freelance AI Instructor & Mentor
+        sub_title: Instructor, Mentor & Educational Content Creator
+        caption: 2026.01 - Present
+        description: |
+          * Deliver hands-on education in generative AI, AI-assisted coding, RAG, AI agents, MCP, LangGraph, and workflow automation.
+          * Design curricula, teaching materials, practical exercises, example code, and assessments for employees, non-developers, and engineers.
+          * Apply ChatGPT, Claude Code, and Codex to requirements analysis, repository exploration, implementation, testing, refactoring, and documentation.
+      - layout: left
+        title: S사 (client names anonymized)
+        sub_title: Corporate AI Training (Scheduled)
+        caption: 2026.10 - 2026.11 (Scheduled)
+        description: |
+          * Scheduled executive AI application training and Copilot Studio agent-development workshops, coaching, and presentation reviews.
+          * Scheduled AI training and a hands-on hackathon for managers.
+          * Client names are anonymized to respect contractual confidentiality. These engagements are upcoming, not completed.
+      - layout: left
+        title: TeamSparta Corporate Training
+        sub_title: Microsoft Copilot Chat & Power Automate
+        caption: 2026.09
+        description: |
+          * Delivered a two-day, five-hour corporate training course (2 hours + 3 hours).
+          * Developed materials and practical exercises; supported troubleshooting, learner questions, corporate security guidance, and output verification.
+          * Tools included Microsoft Copilot Chat, Power Automate, Excel, and Gemini.
+      - layout: left
+        title: Programmers
+        sub_title: Prompt Engineering Online Course
+        caption: 2026.02 - 2026.03
+        description: |
+          * Produced 130 minutes of online content for generative AI beginners: four theory modules, three practical exercises, and 20 assessment questions.
+          * Designed the curriculum, teaching materials, exercises, and assessments using ChatGPT, Gemini, and Claude.
+      - layout: left
+        title: Technical Mentoring
+        sub_title: Programmers & POSTECH CORE
+        description: |
+          * Programmers project mentor: requirements and architecture reviews, code feedback, problem-solving, and presentation preparation (project-based).
+          * POSTECH CORE technical mentor (2025.03 - 2025.09): project direction, technology selection, code feedback, and career discussions for computer science students.
+
   - title: Experience # Title for the section
     layout: list # Type of content section (list/text)
     content:
