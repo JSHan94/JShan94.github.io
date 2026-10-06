@@ -28,6 +28,8 @@ content:
         title: Freelance AI Instructor & Mentor
         sub_title: Instructor, Mentor & Educational Content Creator
         caption: 2026.01 - Present
+        summary: |
+          Hands-on generative AI, AI coding, RAG/agents, and workflow automation training; curriculum and practical content design.
         description: |
           * Deliver hands-on education in generative AI, AI-assisted coding, RAG, AI agents, MCP, LangGraph, and workflow automation.
           * Design curricula, teaching materials, practical exercises, example code, and assessments for employees, non-developers, and engineers.
@@ -36,6 +38,8 @@ content:
         title: S사 (client names anonymized)
         sub_title: Corporate AI Training (Scheduled)
         caption: 2026.10 - 2026.11 (Scheduled)
+        summary: |
+          Executive AI workshops and manager AI hackathon support (scheduled; client names confidential).
         description: |
           * Scheduled executive AI application training and Copilot Studio agent-development workshops, coaching, and presentation reviews.
           * Scheduled AI training and a hands-on hackathon for managers.
@@ -44,6 +48,8 @@ content:
         title: TeamSparta Corporate Training
         sub_title: Microsoft Copilot Chat & Power Automate
         caption: 2026.09
+        summary: |
+          Two-day, five-hour Copilot Chat and Power Automate training, with hands-on troubleshooting and learner support.
         description: |
           * Delivered a two-day, five-hour corporate training course (2 hours + 3 hours).
           * Developed materials and practical exercises; supported troubleshooting, learner questions, corporate security guidance, and output verification.
@@ -52,12 +58,16 @@ content:
         title: Programmers
         sub_title: Prompt Engineering Online Course
         caption: 2026.02 - 2026.03
+        summary: |
+          Produced a 130-minute prompt engineering course: four theory modules, three exercises, and 20 assessment questions.
         description: |
           * Produced 130 minutes of online content for generative AI beginners: four theory modules, three practical exercises, and 20 assessment questions.
           * Designed the curriculum, teaching materials, exercises, and assessments using ChatGPT, Gemini, and Claude.
       - layout: left
         title: Technical Mentoring
         sub_title: Programmers & POSTECH CORE
+        summary: |
+          Project architecture, code reviews, and problem-solving support for Programmers teams and POSTECH CORE students.
         description: |
           * Programmers project mentor: requirements and architecture reviews, code feedback, problem-solving, and presentation preparation (project-based).
           * POSTECH CORE technical mentor (2025.03 - 2025.09): project direction, technology selection, code feedback, and career discussions for computer science students.
@@ -72,6 +82,9 @@ content:
         caption: 2023.01 - 2025.12
         quote: >
           MoveVM-based integrated L1+L2 blockchain protocol
+        summary: |
+          * Developed blockchain core components, SDKs, and end-to-end contract/indexer/API/bot infrastructure.
+          * Supported partner onboarding and developer adoption through technical guidance and documentation.
         description: |
           - **Tech Stack**: Go, Move, TypeScript, PostgreSQL, Docker, GCP
           - **About the Service**: Initia is a platform that enables developers to easily build interoperable custom L2 rollups. As a core engineer, I was solely responsible for designing and implementing the **End-to-End architecture** of the L1-L2 bridge system and the membership (VIP) system.
@@ -128,6 +141,9 @@ content:
         caption: 2022.04 - 2023.01
         quote: >
           Cosmos SDK-based global Layer 1 blockchain protocol
+        summary: |
+          * Developed Cosmos SDK/CosmWasm components and researched blockchain storage economics.
+          * Maintained Python/JavaScript SDKs and supported the Terra 2.0 migration.
         description: |
           - **Tech Stack**: Go, Rust (CosmWasm), TypeScript, Python, Tendermint Core
           - **About the Service**: Developed core modules for the Terra blockchain and participated in technical migration for network reconstruction (Terra 2.0) following a major ecosystem collapse.
@@ -148,6 +164,9 @@ content:
         caption: 2019.07 - 2020.01 (7 months)
         quote: >
           On-chain data platform for global cryptocurrency investors
+        summary: |
+          * Built Python-based on-chain data pipelines and analytics APIs.
+          * Migrated storage from Elasticsearch to relational databases and improved data reliability.
         description: |
           - **Tech Stack**: Python, PostgreSQL
           - **About the Service**: Processes on-chain data from major chains like Bitcoin and Ethereum, providing investors with key metrics such as whale wallet movements and exchange flows.

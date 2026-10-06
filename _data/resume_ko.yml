@@ -28,6 +28,8 @@ content:
         title: 프리랜서 AI 강사·멘토
         sub_title: 강사 · 멘토 · 교육 콘텐츠 제작자
         caption: 2026.01 - 현재
+        summary: |
+          생성형 AI·AI Coding·RAG/Agent·업무자동화 실습 교육과 커리큘럼·교육 콘텐츠 제작.
         description: |
           * 생성형 AI, AI Coding, RAG, AI Agent, MCP, LangGraph와 업무자동화를 중심으로 실습형 교육을 제공합니다.
           * 기업 임직원, 비개발자와 개발자의 수준에 맞춰 커리큘럼, 교안, 실습 과제, 예제 코드와 평가 문항을 제작합니다.
@@ -36,6 +38,8 @@ content:
         title: S사 (고객사명 비공개)
         sub_title: 기업 AI 교육 (예정)
         caption: 2026.10 - 2026.11 (예정)
+        summary: |
+          임원 AI 응용 교육 및 관리자 AI 해커톤 지원 (예정, 고객사명 비공개).
         description: |
           * 임원 대상 AI 응용과정 및 Copilot Studio 에이전트 개발·코칭·발표 심사 예정.
           * 관리자 대상 AI 교육 및 실습형 해커톤 예정.
@@ -44,6 +48,8 @@ content:
         title: 팀스파르타 기업교육
         sub_title: Microsoft Copilot Chat · Power Automate 실무
         caption: 2026.09
+        summary: |
+          Copilot Chat·Power Automate 기업교육 2일·5시간 진행 및 실습 오류 대응·질의응답.
         description: |
           * 2일·총 5시간(2시간 + 3시간)의 기업교육을 진행했습니다.
           * 교안·실습 구성, 실습 오류 대응과 질의응답, 기업 보안 가이드와 생성 결과 검증을 지원했습니다.
@@ -52,12 +58,16 @@ content:
         title: 프로그래머스
         sub_title: 프롬프트 엔지니어링 온라인 강의
         caption: 2026.02 - 2026.03
+        summary: |
+          프롬프트 엔지니어링 온라인 강의 130분 제작: 이론 4개·실습 3개·평가 20문항.
         description: |
           * 생성형 AI 입문자를 위한 총 130분 온라인 콘텐츠를 제작했습니다. 이론 4개 모듈, 실습 3개와 평가 20문항으로 구성했습니다.
           * ChatGPT, Gemini와 Claude를 활용해 커리큘럼, 교안, 실습 과제와 평가 문항을 설계했습니다.
       - layout: left
         title: 기술 멘토링
         sub_title: 프로그래머스 · POSTECH CORE
+        summary: |
+          프로그래머스·POSTECH CORE 프로젝트의 아키텍처 검토, 코드 피드백과 문제 해결 지원.
         description: |
           * 프로그래머스 프로젝트 멘토: 프로젝트별 요구사항·아키텍처 검토, 코드 피드백, 문제 해결과 발표 준비를 지원했습니다.
           * POSTECH CORE 기술 멘토(2025.03 - 2025.09): 컴퓨터공학과 대학생의 프로젝트 방향, 기술 선택, 코드 피드백과 진로 상담을 지원했습니다.
@@ -72,6 +82,9 @@ content:
         caption: 2023.01 - 2025.12
         quote: >
           MoveVM 기반의 통합 L1+L2 블록체인 프로토콜
+        summary: |
+          * 블록체인 코어·SDK와 컨트랙트·인덱서·API·봇의 End-to-End 개발.
+          * 파트너 개발자 온보딩, 기술 가이드와 문서·튜토리얼 제작.
         description: |
           - **사용 기술**: Go, Move, TypeScript, PostgreSQL, Docker, GCP
           - **서비스 소개**: Initia는 개발자가 상호 운용 가능한 커스텀 L2 롤업을 손쉽게 구축할 수 있는 플랫폼입니다. 코어 엔지니어로서 L1-L2 간 브리지 시스템과 멤버십(VIP) 시스템의 **End-to-End 아키텍처**를 전담 설계 및 구현했습니다.
@@ -128,6 +141,9 @@ content:
         caption: 2022.04 - 2023.01
         quote: >
           Cosmos SDK 기반의 글로벌 레이어1 블록체인 프로토콜
+        summary: |
+          * Cosmos SDK·CosmWasm 개발 및 블록체인 스토리지 경제 모델 연구.
+          * Python·JavaScript SDK 개선과 Terra 2.0 마이그레이션 지원.
         description: |
           - **사용 기술**: Go, Rust (CosmWasm), Typescript, Python, Tendermint Core
           - **서비스 소개**: 테라 블록체인의 코어 모듈을 개발하고, 대규모 생태계 붕괴 이후 네트워크 재건(Terra 2.0)을 위한 기술적 마이그레이션에 참여했습니다.
@@ -148,6 +164,9 @@ content:
         caption: 2019.07 - 2020.01 (7개월)
         quote: >
           글로벌 가상자산 투자자를 위한 온체인 데이터 플랫폼
+        summary: |
+          * Python 기반 온체인 데이터 파이프라인·분석 API 개발.
+          * Elasticsearch→PostgreSQL 전환 및 데이터 정합성·쿼리 성능 개선.
         description: |
           - **사용 기술**: Python, PostgreSQL
           - **서비스 소개**: 비트코인, 이더리움 등 주요 체인의 온체인 데이터를 가공하여, 투자자에게 고래 지갑 이동 및 거래소 유출입 등 핵심 지표를 제공합니다.
