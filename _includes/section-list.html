@@ -1,0 +1,52 @@
+{% if include.content.first.summary %}
+<style>
+.career-summary { line-height: 1.6; }
+.career-summary ul { padding-left: 1.2em; }
+.career-details { margin: 12px 0 6px; border: 1px solid #dce3ed; border-radius: 6px; }
+.career-details > summary { padding: 10px 14px; color: #174ea6; background: #f6f8fc; border-radius: 6px; cursor: pointer; font-size: 1.4rem; font-weight: 600; }
+.career-details > summary:hover { background: #edf2fa; }
+.career-details > summary:focus-visible { outline: 2px solid #174ea6; outline-offset: 3px; }
+.career-details[open] > summary { border-bottom: 1px solid #dce3ed; border-radius: 6px 6px 0 0; }
+.career-detail-body { padding: 16px 18px 4px; overflow-wrap: anywhere; }
+.career-detail-body > .quote { margin-top: 0; }
+@media (max-width: 767px) { .career-detail-body { padding: 14px 12px 2px; } }
+</style>
+{% endif %}
+{% for item in include.content %}
+  <div class="row clearfix layout layout-{{item.layout | default: 'left'}} border-{{item.border | default: 'no'}}">
+    <div class="col-xs-12 col-sm-4 col-md-3 col-print-12 details">
+      <h4 id="{{ item.title | slugify }}">{{ item.title }}</h4>
+      {%- if item.sub_title -%}<p><b>{{ item.sub_title }}</b></p>{%- endif -%}
+      {%- if item.caption -%}<p>{{ item.caption }}</p>{%- endif -%}
+
+      {%- if item.link -%}
+        {% include a.html href=item.link class="link" %}
+          {%- if item.link_text -%}{{ item.link_text }}{%- else -%}{{ item.link }}{%- endif -%}
+        </a>
+      {%- endif -%}
+
+      <p class="no-print aditional-links">
+        {% for link in item.additional_links %}
+          {% include a.html href=link.url class="" %}
+            <i class="{{ link.icon }}" title="{{ link.title | escape }}"></i>
+          </a>
+        {% endfor %}
+      </p>
+    </div>
+    <div class="col-xs-12 col-sm-8 col-md-9 col-print-12 content">
+      {%- if item.summary -%}
+        <div class="career-summary">{{ item.summary | strip | markdownify }}</div>
+        <details class="career-details">
+          <summary>{% if include.resume.lang == 'ko' %}상세 경력 보기{% else %}View detailed experience{% endif %}<span class="sr-only">: {{ item.title | escape }}</span></summary>
+          <div class="career-detail-body">
+            {%- if item.quote -%}<p class="quote">{{ item.quote }}</p>{%- endif -%}
+            {{ item.description | strip | markdownify }}
+          </div>
+        </details>
+      {%- else -%}
+        {%- if item.quote -%}<p class="quote">{{ item.quote }}</p>{%- endif -%}
+        {{ item.description | strip | markdownify }}
+      {%- endif -%}
+    </div>
+  </div>
+{% endfor %}
