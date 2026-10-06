@@ -36,7 +36,7 @@
     <div class="col-xs-12 col-sm-8 col-md-9 col-print-12 content">
       {%- if item.summary -%}
         <div class="career-summary">{{ item.summary | strip | markdownify }}</div>
-        <details class="career-details">
+        <details class="career-details"{% if include.content.first.title == '프리랜서 AI 강사·멘토' or include.content.first.title == 'Freelance AI Instructor & Mentor' %} open{% endif %}>
           <summary>{% if include.resume.lang == 'ko' %}상세 경력 보기{% else %}View detailed experience{% endif %}<span class="sr-only">: {{ item.title | escape }}</span></summary>
           <div class="career-detail-body">
             {%- if item.quote -%}<p class="quote">{{ item.quote }}</p>{%- endif -%}
