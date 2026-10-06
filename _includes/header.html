@@ -138,6 +138,10 @@
           {{ include.resume.website_title | default: site.website_title | default: "Web" }}: {% include a.html href=resume_website %}{{ resume_website | escape }}</a>
         </p>
       {%- endif -%}
+      <p class="no-print resume-actions" style="margin-top: 12px;">
+        <a href="{{ '/assets/han-jungsu-ai-instructor-resume.pdf' | relative_url }}" target="_blank" rel="noopener" style="display: inline-block; padding: 8px 12px; margin: 0 6px 6px 0; border: 1px solid #174ea6; border-radius: 4px; background: #174ea6; color: #fff; text-decoration: none;">{% if include.resume.lang == 'ko' %}이력서 보기 (PDF){% else %}Resume (Korean PDF){% endif %}</a>
+        <a href="{{ '/assets/han-jungsu-ai-instructor-resume.pdf' | relative_url }}" download="Han_Jungsu_AI_Instructor_Resume.pdf" style="display: inline-block; padding: 8px 12px; margin-bottom: 6px; border: 1px solid #174ea6; border-radius: 4px; color: #174ea6; text-decoration: none;">{% if include.resume.lang == 'ko' %}다운로드{% else %}Download{% endif %}</a>
+      </p>
     </div>
   </div>
 </div>
