@@ -1,7 +1,7 @@
 version: 2
 lang: ko
 name: 한정수
-title: 블록체인 코어 & 스마트 컨트랙트 엔지니어
+title: AI 강사·멘토 | 블록체인 엔지니어
 email: saw151515@gmail.com
 website: www.github.com/jshan94
 github_username: jshan94
@@ -11,6 +11,7 @@ darkmode: false
 about_title: 소개
 about_profile_image: images/profile.jpg
 about_content: |
+  프리랜서 AI 강사·멘토·교육 콘텐츠 제작자로서 개발 실무 경험을 생성형 AI 활용과 업무자동화 교육으로 연결합니다.<br/>
   MoveVM, Cosmos SDK, CosmWasm 등 다양한 환경에서 메인넷 코어와 dApp 생태계를 구축해온 블록체인 엔지니어입니다.<br/>
   단순한 코드 작성을 넘어 온체인 컨트랙트부터 인덱서, 봇, SDK까지 이어지는 <b>End-to-End 시스템 설계</b>에 강점이 있습니다.<br/>
   <ul>
@@ -20,6 +21,47 @@ about_content: |
   </ul>
 
 content:
+  - title: AI 강의·멘토링
+    layout: list
+    content:
+      - layout: left
+        title: 프리랜서 AI 강사·멘토
+        sub_title: 강사 · 멘토 · 교육 콘텐츠 제작자
+        caption: 2026.01 - 현재
+        description: |
+          * 생성형 AI, AI Coding, RAG, AI Agent, MCP, LangGraph와 업무자동화를 중심으로 실습형 교육을 제공합니다.
+          * 기업 임직원, 비개발자와 개발자의 수준에 맞춰 커리큘럼, 교안, 실습 과제, 예제 코드와 평가 문항을 제작합니다.
+          * ChatGPT, Claude Code와 Codex를 요구사항 분석, 저장소 탐색, 구현, 테스트, 리팩터링과 문서화에 활용합니다.
+      - layout: left
+        title: S사 (고객사명 비공개)
+        sub_title: 기업 AI 교육 (예정)
+        caption: 2026.10 - 2026.11 (예정)
+        description: |
+          * 임원 대상 AI 응용과정 및 Copilot Studio 에이전트 개발·코칭·발표 심사 예정.
+          * 관리자 대상 AI 교육 및 실습형 해커톤 예정.
+          * 계약상 비밀유지를 위해 고객사명은 익명으로 표시하며, 완료 이력이 아닌 예정 교육입니다.
+      - layout: left
+        title: 팀스파르타 기업교육
+        sub_title: Microsoft Copilot Chat · Power Automate 실무
+        caption: 2026.09
+        description: |
+          * 2일·총 5시간(2시간 + 3시간)의 기업교육을 진행했습니다.
+          * 교안·실습 구성, 실습 오류 대응과 질의응답, 기업 보안 가이드와 생성 결과 검증을 지원했습니다.
+          * Microsoft Copilot Chat, Power Automate, Excel과 Gemini를 활용했습니다.
+      - layout: left
+        title: 프로그래머스
+        sub_title: 프롬프트 엔지니어링 온라인 강의
+        caption: 2026.02 - 2026.03
+        description: |
+          * 생성형 AI 입문자를 위한 총 130분 온라인 콘텐츠를 제작했습니다. 이론 4개 모듈, 실습 3개와 평가 20문항으로 구성했습니다.
+          * ChatGPT, Gemini와 Claude를 활용해 커리큘럼, 교안, 실습 과제와 평가 문항을 설계했습니다.
+      - layout: left
+        title: 기술 멘토링
+        sub_title: 프로그래머스 · POSTECH CORE
+        description: |
+          * 프로그래머스 프로젝트 멘토: 프로젝트별 요구사항·아키텍처 검토, 코드 피드백, 문제 해결과 발표 준비를 지원했습니다.
+          * POSTECH CORE 기술 멘토(2025.03 - 2025.09): 컴퓨터공학과 대학생의 프로젝트 방향, 기술 선택, 코드 피드백과 진로 상담을 지원했습니다.
+
   - title: 경력
     layout: list
     content:
